@@ -1,3 +1,6 @@
-var myoji=["田中","高橋","斉藤"];
-myoji[3]="鈴木";
-document.write(myoji);
+for(var a=1;a<=5;a++){
+    for(var b=0;b<a;b++){
+        document.write("★");
+    }
+    document.write("<br>");
+}
