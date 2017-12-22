@@ -1,0 +1,54 @@
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+Person taro=new Person();
+taro.name="山田太郎";
+taro.age=20;
+taro.phoneNumber="090-123-4567";
+taro.address="aaa@co.jp";
+taro.talk();
+taro.walk();
+taro.run();
+System.out.println(taro.name);
+System.out.println(taro.age);
+System.out.println(taro.phoneNumber);
+System.out.println(taro.address);
+
+Person rin=new Person();
+rin.name="川畑鈴";
+rin.age=24;
+rin.phoneNumber="080-1776-8327";
+rin.address="cc30.tm24@docomo.ne.jp";
+rin.talk();
+rin.walk();
+rin.run();
+System.out.println(rin.name);
+System.out.println(rin.age);
+System.out.println(rin.phoneNumber);
+System.out.println(rin.address);
+
+Person jiro=new Person();
+jiro.name="木村次郎";
+jiro.age=18;
+jiro.phoneNumber="090-345-6789";
+jiro.address="bbb@co.jp";
+jiro.talk();
+jiro.walk();
+jiro.run();
+System.out.println(jiro.name);
+System.out.println(jiro.age);
+System.out.println(jiro.phoneNumber);
+System.out.println(jiro.address);
+
+Person hanako=new Person();
+hanako.name="鈴木花子";
+hanako.age=16;
+hanako.phoneNumber="080-123-4567";
+hanako.address="ccc@co.jp";
+System.out.println(hanako.name);
+System.out.println(hanako.age);
+	}
+
+}
